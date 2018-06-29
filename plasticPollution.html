@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<title>WaterWoes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://www.execulink.ca/files/1214/4001/1269/OceanCleanupHeader3.jpg');
+    min-height: 80%;
+}
+
+
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+ *{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: lightgrey;
+}
+</style>
+<body>
+
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-gray w3-center w3-padding w3-hover-opacity-off">
+    <a href="home.html" style="width:20%" class="w3-bar-item w3-button">Home</a>
+    <a href="coralBleaching.html" style="width:20%" class="w3-bar-item w3-button">Coral Bleaching</a>
+    <a href="plasticPollution.html" style="width:20%" class="w3-bar-item w3-button">Plastic Pollution</a>
+    <a href="fishLife.html" style="width:20%" class="w3-bar-item w3-button">Life of a Fish</a>
+    <a href="sources.html" style="width:20%" class="w3-bar-item w3-button">Sources</a>
+
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="color: white;">
+    <span class="w3-center w3-padding-large w3-xxlarge w3-animate-opacity">Plastic Pollution<span class="w3-hide-small"></span></span>
+    <div class = "w3-display-bottom w3-large w3-center w3-animate-opacity">
+                <p>99% of our sea animals are being hurt.</p>
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center w3-xxlarge">What is it?</h3>
+    <p style ="color: green;">Drowning in plastic.</p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+          <div class="w3-content w3-section" style="max-width:500px">
+           <img class = "mySlides" src="ugh .jpg" class="w3-round w3-image" alt="colorful" style = "width:100%">
+          <img class = "mySlides" src = "animal.jpg" class = "w3-round w3-image" alt= "whitecoral" style = "width:100%">
+          <img class = "mySlides" src = "turtle.jpg" class = "w3-round w3-image" alt= "beforeafter" style = "width:100%">
+         <img class = "mySlides" src = "bird.jpeg" class = "w3-round w3-image" alt= "more" style = "width:100%">
+          <img class = "mySlides" src = "plastic .jpg" class = "w3-round w3-image" alt= "coral1" style = "width:100%">
+          <img class = "mySlides" src = "plastic2.jpg" class = "w3-round w3-image" alt= "coral" style = "width:100%">
+
+    </div>
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>The boom of plastic began around WWII, years later those plastics could still be found on our planet. Cheap, easy, and convienent, plastic has overtaken out lives. Humans a are highly dependent on this material but rarely know the
+  consequences of these products. Because plastic has been around for 70 years, we don't know how long it takes for the material to decompose. However, it is estimated that one plastic bottle takes 450 years to decompose and one plastic
+  bag takes 500 years. Where are we putting all this plastic that still has a reusable life? Most of it ends up in our oceans, approximately 9 million tons. Because of this, ocean ife is suffering. Sea turtles, whales, fish, and many more
+  are injesting microplastics which can destroy their systems and lead to death. Approximately, 700 species have injested some sort of plastic. </p>
+    </div>
+  </div>
+
+ <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/JL0VSfZ0yX4"allowfullscreen></iframe></p>
+  <p class="w3-large w3-xxlarge w3-center w3-padding-16">Count the Numbers</p>
+  <p>Less than 1/5 of plastic all over the world gets recycled. In the US, it's only 10%.</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:20%">20%</div>
+  </div>
+  <p>73% of beach litter is plastic. </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:73%">73%</div>
+  </div>
+  <p>More than 40% of plastics are only used once.</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:40%">40</div>
+  </div>
+  <p>9 million tons of plastic find their way into the ocean each year.</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:90%">9 million tons</div>
+  </div>
+</div>
+
+
+
+
+<!-- Container (Contact Section) -->
+  <h3 class="w3-center w3-xxlarge">How You Can Help</h3>
+    <h2 class="w3-center w3-xlarge" style = "color:green;"><em>Every little effort helps.</em></h2>
+
+  <ul>
+    <li>Use a reusable water bottle.</li>
+    <li>Use a bamboo toothbrush.</li>
+    <li>Use reusable grocery bags when shopping.</li>
+    <li>Say no to straws.</li>
+    <li>Choose paper products.</li>
+    <li>Use shampoo bars/ soap bars.</li>
+  </ul>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-gray w3-padding-25 w3-opacity">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-center"></i>To the top</a>
+  <div class="w3-large w3-section">
+  </div>
+  <p>Thank you Kode With Klossy!</p>
+  <p>Saba Sharfuddin, Daniella Moreno, Anna Makarewicz</p>
+</footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

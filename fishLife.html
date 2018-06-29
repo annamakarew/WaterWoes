@@ -1,0 +1,219 @@
+<html>
+    <head>
+        <title>Life of a Fish</title>
+    </head>
+    <body background="https://www.colorhexa.com/40a4df.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.js"></script>
+        <a-scene color="#40A4DF">
+            <!-- Daniella's elements -->
+            <a-box src = "plastictransparent.png" position = "-14.3 1.47 -20.6" rotation = "68 56 104"></a-box>
+            <a-box src = "bubblewrap2.jpg" position = "-12 8 -9" rotation = "68 56 104"></a-box>
+            <a-box src = "lays-classic.png" position = "9.57 5.83 -10.4" rotation = "68 56 104"></a-box>
+            <!--Jellyfish-->
+            <a-asset>
+                <a-asset-item id="jelly-obj" src="jelly-fish.obj"></a-asset-item>
+                <a-asset-item id="jelly-mtl" src="jelly-fish.mtl"></a-asset-item>
+            </a-asset>
+            <a-entity id="jelly-button" position="0 0 -75" rotation="0 0 0" obj-model="obj: #jelly-obj; mtl: #jelly-mtl">
+            </a-entity>
+            <!--SODACANS-->
+            <a-asset>
+                <a-asset-item id="soda-obj" src="soda-can.obj"></a-asset-item>
+                <a-asset-item id="soda-mtl" src="soda-can.mtl"></a-asset-item>
+            </a-asset>
+            <a-entity position="-50 3.5 -50" rotation="70 105 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-50 3.5 -50" to="-50 360 -50" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-40 8.1 -50" rotation="10 8.1 -7" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-40 8.1 -50" to="-40 360 -50" dur="15000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-30 4.019 -50" rotation="70 -150 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-30 4.019 -50" to="-30 360 -50" dur="20000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-70 4.019 -50" rotation="70 -150 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-70 4.019 -50" to="-70 360 -50" dur="25000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="75 4.019 -50" rotation="70 -150 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="75 4.019 -50" to="75 360 -50" dur="30000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="30 15 -50" rotation="70 -150 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="30 15 -50" to="30 360 -50" dur="35000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-20 3 -50" rotation="45 115 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-20 30 -50" to="-20 360 -50" dur="40000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-10 3 -50" rotation="60 30 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-10 3 -50" to="-10 360 -50" dur="45000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="0 3 -50" rotation="15 30 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="0 3 -50" to="0 360 -50" dur="50000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="10 3 -50" rotation="45 50 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="10 3 -50" to="10 360 -50" dur="55000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="20 10 -50" rotation="70 105 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="20 10 -50" to="20 360 -50" dur="60000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="30 -2 -50" rotation="90 145 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="30 -2 -50" to="30 360 -50" dur="65000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-1 3 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-1 3 -40" to="-1 360 -40" dur="70000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="50 50 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="50 50 -40" to="50 360 -40" dur="75000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-50 50 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-50 50 -40" to="-50 360 -40" dur="80000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="50 -30 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="50 -30 -40" to="50 360 -40" dur="85000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-50 -30 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-50 -30 -40" to="-50 360 -40" dur="90000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="40 70 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="40 70 -40" to="40 360 -40" dur="95000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="30 30 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="30 30 -40" to="30 360 -40" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-30 30 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-30 30 -40" to="-30 360 -40" dur="15000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="30 -20 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="30 -20 -40" to="30 360 -40" dur="20000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-30 -20 -40" rotation="90 8.1 0" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-30 -20 -40" to="-30 360 -40" dur="25000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="50 4 -50" rotation="50 16 -40" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="50 4 -50" to="50 360 -50" dur="70000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="51 13 -54" rotation="30 -18 -40" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="51 13 -54" to="51 360 -54" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="51 13 -54" rotation="30 -18 -40" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="51 13 -54" to="51 360 -54" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-25 14 -46" rotation="-30 243 -40" obj-model="obj: #soda-obj; mtl: #soda-mtl">
+                <a-animation attribute="rotation" from="-25 14 -46" to="-25 360 -46" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <!--BOTTLES-->
+            <a-asset>
+                <a-asset-item id="bottle-obj" src="beer-bottle.obj"></a-asset-item>
+                <a-asset-item id="bottle-mtl" src="beer-bottle.mtl"></a-asset-item>
+            </a-asset>
+            <a-entity position="40 -3 -43.8" rotation="44 40 -55" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="40 -3 -43.8" to="44 360 -55" dur="30000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="50 -5 -50" rotation="60 65 -60" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="50 -5 -50" to="50 360 -50" dur="35000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="18 0 -50" rotation="70 75 -65" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="18 0 -50" to="18 360 -50" dur="40000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="0 -5 -40" rotation="44 85 -65" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="0 -5 -40" to="0 360 -40" dur="45000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-12 -2 -50" rotation="80 85 -75" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-12 2 -50" to="-12 360 -50" dur="50000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-20 4.5 -50" rotation="53 -90 -5" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-20 0 -50" to="-20 360 -50" dur="55000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-20 9 -50" rotation="90 -143 -110" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-20 0 -50" to="-20 360 -50" dur="60000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-10 8 -50" rotation="90 80 -110" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-10 0 -50" to="-10 360 -50" dur="65000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="0 7 -50" rotation="90 80 -110" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="0 0 -50" to="0 360 -50" dur="35000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="0 7 -10" rotation="90 80 -110" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="0 0 -10" to="0 360 -10" dur="30000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="30 20 -50" rotation="90 80 -110" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="30 20 -50" to="30 360 -50" dur="25000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="23 -14 -50" rotation="50 263 -40" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="23 -14 -50" to="23 360 -50" dur="20000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+             <a-entity position="59 -5 -50" rotation="50 299 -40" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="59 -5 -50" to="59 360 -50" dur="15000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-40 18 -56" rotation="-10 -132 134" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-40 18 -56" to="-40 360 -56" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <a-entity position="-50 18 -56" rotation="-13 -134 13" obj-model="obj: #bottle-obj; mtl: #bottle-mtl">
+                <a-animation attribute="rotation" from="-50 18 -56" to="-50 360 -56" dur="10000" repeat="indefinite" easing="linear"></a-animation>
+            </a-entity>
+            <!--CORAL-->
+            <a-asset>
+                <a-asset-item id="coral-obj" src="coral-purple.obj"></a-asset-item>
+                <a-asset-item id="coral-mtl" src="coral-purple.mtl"></a-asset-item>
+            </a-asset>
+            <a-entity position="0 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-15 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-13 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-11 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-9 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-7 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-5 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-3 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-2 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="0 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="2 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="4 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="5 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="7 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="9 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="11 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="13 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="15 -4.019 -6.5" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="2 0 -75" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <a-entity position="-2 0 -75" rotation="0 0 0" obj-model="obj: #coral-obj; mtl: #coral-mtl">
+            </a-entity>
+            <!--sand-->
+            <a-assets>
+                <img id="sand" src="Sand_new.jpg">
+            </a-assets>
+            <a-entity position="0 -100 0">
+                <a-plane src="#sand" postition="0 0 -100"height="1000" width="1000" rotation="-90 -100 0"></a-plane>
+            </a-entity>
+            <!--button-->
+            <a-entity id="refresh-button" geometry="primitive: box" material="color: white" position="0 1 -75">  </a-entity>
+            <!--cursor-->
+            <a-camera>
+                <a-cursor color="black"></a-cursor>
+            </a-camera>
+        </a-scene>
+       <!--JS-->
+        <script>
+            document.querySelector('#refresh-button').addEventListener('click', function() {
+                window.location.replace("home.html");
+                console.log("HI WORK!!")
+                });
+        </script>
+    </body>
+</html>

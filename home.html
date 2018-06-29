@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<title>WaterWoes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('frontpage2.jpg');
+    min-height: 90%;
+}
+
+
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+ *{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: lightblue;
+}
+</style>
+<body>
+
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-cyan w3-opacity w3-center w3-padding w3-hover-opacity-off">
+    <a href="home.html" style="width:20%" class="w3-bar-item w3-button">Home</a>
+    <a href="coralBleaching.html" style="width:20%" class="w3-bar-item w3-button">Coral Bleaching</a>
+    <a href="plasticPollution.html" style="width:20%" class="w3-bar-item w3-button">Plastic Pollution</a>
+    <a href="fishLife.html" style="width:20%" class="w3-bar-item w3-button">Life of a Fish</a>
+    <a href="sources.html" style="width:20%" class="w3-bar-item w3-button">Sources</a>
+
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-xxlarge w3-wide w3-animate-opacity">WaterWoes<span class="w3-hide-small"></span></span>
+    <div class = "w3-display-bottom w3-large w3-center w3-animate-opacity">
+                <p>Our Oceans Need Our Help.</p>
+
+    </div>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Action is needed.</h3>
+  <p class="w3-center"><em>Our Mission</em></p>
+  <p>Our oceans are one of the most important bodies on our planet. Integral to all forms of life, the oceans provide habitats to a diverse array of species, are a part of the carbon cycle, and influence weather and climate patterns.
+  Our ocean takes up 70% of the the world's surface area and inhabit an estimated amount of 2 million species. This large body of saltwater is a huge part of the carbon cycle and stores much of the carbon put into the atmosphere.
+  The ocean's currents transport winds, warm waters, and precipitaion. They play a large part in regulating climate.   </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="seahorse .jpg" class="w3-round w3-image" alt="Seahorse" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>As a result of climate change and pollution, our oceans are threatened. Because of climate change, the oceans are warming and sea levels are rising. As a result, the once vibrant and coloful coral reefs are being bleached.
+      Through our overdependence of plastic, all the waste ends up in the ocean and threatens species and pollutes water. As humans, we have a responsibility to keep clean our oceans and beautiful. We want to foster a passion and urge
+      to save our oceans through this website.
+      </p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">What's going on?</p>
+  <p>The oceans make up 70% of the earth's surface</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:70%">70%</div>
+  </div>
+  <p>About 70% of the air we breathe is produced by the oceans.</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:70%">70%</div>
+  </div>
+  <p>The sea is home to the largest living structure, the Great Barrier Reef, and can be seen from the moon</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-blue w3-center" style="width:75%">2,600 KM</div>
+  </div>
+</div>
+
+
+
+
+<!-- Container (Contact Section) -->
+  <h3 class="w3-center">Meet the Team</h3>
+  <div class="w3-row w3-padding-32 w3-section">
+  <div class = "row">
+    <div class="w3-col m4 w3-container">
+        <div class = "column">
+          <img src = "saba.jpg" alt = "saba" style = "width:300px;"></img>
+          <figcaption>Saba Sharfuddin</figcaption>
+          </div>
+      </div>
+    <div class="w3-col m4 w3-container">
+      <div class = "column">
+          <img src = "FullSizeRender.jpg" alt = "daniella" style = "width:300px;"></img>
+          <figcaption>Daniella Moreno</figcaption>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-container">
+      <div class = "column">
+          <img src = "IMG_0014.jpg" alt = "anna" style = "width:300px"></img>
+          <figcaption>Anna Makarewicz</figcaption>
+          <div class = "w3-center">
+          </div>
+      </div>
+    </div>
+      <div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-cyan w3-padding-25 w3-opacity">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-center"></i>To the top</a>
+  <div class="w3-large w3-section">
+  </div>
+  <p>Thank you Kode With Klossy!</p>
+</footer>
+
+
+
+</body>
+</html>

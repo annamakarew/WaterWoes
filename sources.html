@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<title>WaterWoes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://webneel.com/wallpaper/sites/default/files/images/04-2013/4-beach-sea-photography.jpg');
+    min-height: 80%;
+}
+
+
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+ *{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: lightyellow;
+}
+</style>
+<body>
+
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-yellow w3-center w3-padding w3-hover-opacity-off">
+    <a href="home.html" style="width:20%" class="w3-bar-item w3-button">Home</a>
+    <a href="coralBleaching.html" style="width:20%" class="w3-bar-item w3-button">Coral Bleaching</a>
+    <a href="plasticPollution.html" style="width:20%" class="w3-bar-item w3-button">Plastic Pollution</a>
+    <a href="fishLife.html" style="width:20%" class="w3-bar-item w3-button">Life of a Fish</a>
+    <a href="sources.html" style="width:20%" class="w3-bar-item w3-button">Sources</a>
+
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-xxlarge w3-animate-opacity">Sources<span class="w3-hide-small"></span></span>
+    <div class = "w3-display-bottom w3-large w3-center w3-animate-opacity">
+                <p>Thank you.</p>
+
+    </div>
+  </div>
+</div>
+
+<div style="width:100; text-align:center">
+<img src="screenshot2.png" height="1200">
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-yellow w3-padding-25 w3-opacity">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-center"></i>To the top</a>
+  <div class="w3-large w3-section">
+  </div>
+  <p>Thank you Kode With Klossy!</p>
+  <p>Saba Sharfuddin, Daniella Moreno, Anna Makarewicz</p>
+</footer>
+
+
+
+</body>
+</html>
